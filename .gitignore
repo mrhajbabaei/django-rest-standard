@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,django,python,virtualenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,django,python,virtualenv
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,virtualenv,python,macos,django,vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,virtualenv,python,macos,django,vagrant
 
 ### Django ###
 *.log
@@ -240,6 +240,16 @@ Temporary Items
 
 # profiling data
 
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### VirtualEnv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
@@ -263,7 +273,7 @@ pip-selfcheck.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,django,python,virtualenv
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,virtualenv,python,macos,django,vagrant
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
